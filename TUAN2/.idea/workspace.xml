@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e3d9ab3-548b-4517-a41c-025ddaf6c535" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qwi0pUyfvaANYYQyZv5WbMMjlp" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/LTUDJAVA/HocJava/Tuan1/src/com/dhpm11/tuan2/DemoJPanel.java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GiaiPTBac2">
+    <configuration name="DemoBorderLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baitap4.DemoBorderLayout" />
+      <module name="TUAN2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baitap4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoBoxLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baitap3.DemoBoxLayout" />
+      <module name="TUAN2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baitap3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoFlowLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baitap2.DemoFlowLayout" />
+      <module name="TUAN2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baitap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiaiPTBac2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baitap5.GiaiPTBac2" />
+      <module name="TUAN2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baitap5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiaiPTbac2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baitap5.GiaiPTbac2" />
+      <module name="TUAN2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baitap5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GiaiPTBac2" />
+        <item itemvalue="Application.GiaiPTbac2" />
+        <item itemvalue="Application.DemoFlowLayout" />
+        <item itemvalue="Application.DemoBorderLayout" />
+        <item itemvalue="Application.DemoBoxLayout" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e3d9ab3-548b-4517-a41c-025ddaf6c535" name="Default Changelist" comment="" />
+      <created>1568687847292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568687847292</updated>
+      <workItem from="1568687868127" duration="1778000" />
+      <workItem from="1568814958635" duration="3668000" />
+      <workItem from="1568876258436" duration="5399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
