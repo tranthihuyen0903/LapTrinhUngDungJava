@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>12.0.4237</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="BAITAP3">
+      <ObjectId>7</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="BAITAP3GIAOHANG">
+      <ObjectId>14</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="BT3GIAOHANG">
+      <ObjectId>13</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="BTTuan4">
+      <ObjectId>23</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="CSDLThuVien">
+      <ObjectId>21</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="DANGKYTHUEPTGTCC">
+      <ObjectId>11</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="DANGKYTHUEXE">
+      <ObjectId>10</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="DKTHUEPHUONGTIEN">
+      <ObjectId>12</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="DangKyGiaoHang">
+      <ObjectId>15</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="MUONSACH">
+      <ObjectId>19</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="MUONSACH_HOMEWORK">
+      <ObjectId>20</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="QLBH">
+      <ObjectId>22</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="QLDiem">
+      <ObjectId>18</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="QUANLYCONGVAN">
+      <ObjectId>9</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="QUANLYDIEM">
+      <ObjectId>17</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="ReportServer$HUYEN1234">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="18" parent="1" name="ReportServer$HUYEN1234TempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="19" parent="1" name="THUEPHUONGTIEN">
+      <ObjectId>8</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="ThuePhuongTien_BT3">
+      <ObjectId>16</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@HUYENTRAN\HUYEN1234</Fingerprint>
+    </database>
+    <database id="22" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="23" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="25" parent="21" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="26" parent="21" name="NT SERVICE\ReportServer$HUYEN1234">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="27" parent="21" name="RSExecRole">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="28" parent="21" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="29" parent="21" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="30" parent="21" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="31" parent="21" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="32" parent="21" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="33" parent="21" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="34" parent="21" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="35" parent="21" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="36" parent="21" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="37" parent="21" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-10-04.07:28:00.060</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="38" parent="21" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="39" parent="21" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="40" parent="37" name="CapQuyen">
+      <ObjectId>279672044</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:58.913</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.907</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="37" name="DONGXE">
+      <ObjectId>87671360</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:01.130</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.103</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="37" name="DangKiCungCap">
+      <ObjectId>119671474</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:08.080</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.080</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="37" name="DangNhap">
+      <ObjectId>311672158</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.023</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.023</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="37" name="DocGia">
+      <ObjectId>343672272</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.043</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.910</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="37" name="LoaiDichVu">
+      <ObjectId>2139154666</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:30:21.963</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="37" name="LoaiMatHang">
+      <ObjectId>231671873</ObjectId>
+      <CreatedTimestamp>2019-02-27.07:08:18.227</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.07:08:18.227</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="37" name="MSreplication_options">
+      <ObjectId>1787153412</ObjectId>
+      <CreatedTimestamp>2014-02-21.03:50:43.983</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-19.15:16:14.873</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="37" name="MauForm">
+      <ObjectId>375672386</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.070</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.883</ModifiedTimestamp>
+    </table>
+    <table id="49" parent="37" name="MucPhi">
+      <ObjectId>23671132</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:30:21.997</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="37" name="NhaCungCap">
+      <ObjectId>2107154552</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:30:21.820</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+    </table>
+    <table id="51" parent="37" name="NhaXuatBan">
+      <ObjectId>407672500</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.093</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.920</ModifiedTimestamp>
+    </table>
+    <table id="52" parent="37" name="PhieuGiaiQuyetMon">
+      <ObjectId>439672614</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.097</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.097</ModifiedTimestamp>
+    </table>
+    <table id="53" parent="37" name="PhieuTraSach">
+      <ObjectId>471672728</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.100</ModifiedTimestamp>
+    </table>
+    <table id="54" parent="37" name="PhieuYeuCau">
+      <ObjectId>503672842</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.103</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.917</ModifiedTimestamp>
+    </table>
+    <table id="55" parent="37" name="Sach">
+      <ObjectId>535672956</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.107</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.940</ModifiedTimestamp>
+    </table>
+    <table id="56" parent="37" name="SachMuon">
+      <ObjectId>567673070</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.110</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.923</ModifiedTimestamp>
+    </table>
+    <table id="57" parent="37" name="SachTacGia">
+      <ObjectId>599673184</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.113</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.943</ModifiedTimestamp>
+    </table>
+    <table id="58" parent="37" name="TacGia">
+      <ObjectId>631673298</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.113</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.943</ModifiedTimestamp>
+    </table>
+    <table id="59" parent="37" name="ThuThu">
+      <ObjectId>663673412</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.117</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.887</ModifiedTimestamp>
+    </table>
+    <table id="60" parent="37" name="TuCachTacNhan">
+      <ObjectId>695673526</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.120</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.907</ModifiedTimestamp>
+    </table>
+    <table id="61" parent="37" name="spt_fallback_db">
+      <ObjectId>117575457</ObjectId>
+      <CreatedTimestamp>2003-04-08.16:18:01.557</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:51:04.127</ModifiedTimestamp>
+    </table>
+    <table id="62" parent="37" name="spt_fallback_dev">
+      <ObjectId>133575514</ObjectId>
+      <CreatedTimestamp>2003-04-08.16:18:02.870</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:51:04.137</ModifiedTimestamp>
+    </table>
+    <table id="63" parent="37" name="spt_fallback_usg">
+      <ObjectId>149575571</ObjectId>
+      <CreatedTimestamp>2003-04-08.16:18:04.180</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:51:04.143</ModifiedTimestamp>
+    </table>
+    <table id="64" parent="37" name="spt_monitor">
+      <ObjectId>1483152329</ObjectId>
+      <CreatedTimestamp>2014-02-21.03:49:38.300</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:51:04.157</ModifiedTimestamp>
+    </table>
+    <view id="65" parent="37" name="spt_values">
+      <ObjectId>1467152272</ObjectId>
+      <SourceTextLength>161</SourceTextLength>
+      <CreatedTimestamp>2014-02-21.03:49:38.257</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:49:38.300</ModifiedTimestamp>
+    </view>
+    <routine id="66" parent="37" name="UpdateImage">
+      <ObjectId>983674552</ObjectId>
+      <SourceTextLength>146</SourceTextLength>
+      <CreatedTimestamp>2019-03-10.17:37:59.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.950</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="67" parent="37" name="sp_MScleanupmergepublisher">
+      <ObjectId>1819153526</ObjectId>
+      <SourceTextLength>100</SourceTextLength>
+      <CreatedTimestamp>2014-02-21.03:50:44.080</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:51:04.180</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="68" parent="37" name="sp_MSrepl_startup">
+      <ObjectId>1803153469</ObjectId>
+      <SourceTextLength>83</SourceTextLength>
+      <CreatedTimestamp>2014-02-21.03:50:44.060</CreatedTimestamp>
+      <ModifiedTimestamp>2014-02-21.03:51:04.173</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="69" parent="40" name="TuCach">
+      <Position>1</Position>
+      <DataType>varchar(1 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="40" name="MsMau">
+      <Position>2</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="40" name="Quyen">
+      <Position>3</Position>
+      <DataType>varchar(4 char)|0s</DataType>
+    </column>
+    <index id="72" parent="40" name="PK_CapQuyen">
+      <Position>1</Position>
+      <ColNames>TuCach
+MsMau</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="40" name="PK_CapQuyen">
+      <ObjectId>295672101</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.023</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.023</ModifiedTimestamp>
+      <ColNames>TuCach
+MsMau</ColNames>
+      <UnderlyingIndexName>PK_CapQuyen</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="40" name="FK_CapQuyen_TuCachTacNhan">
+      <ObjectId>871674153</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.907</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.907</ModifiedTimestamp>
+      <ColNames>TuCach</ColNames>
+      <RefTableId>695673526</RefTableId>
+      <RefTableName>TuCachTacNhan</RefTableName>
+      <RefKeyName>PK_TuCachTacNhan</RefKeyName>
+      <RefColNames>TuCach</RefColNames>
+    </foreign-key>
+    <foreign-key id="75" parent="40" name="FK_CapQuyen_MauForm">
+      <ObjectId>855674096</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.883</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.883</ModifiedTimestamp>
+      <ColNames>MsMau</ColNames>
+      <RefTableId>375672386</RefTableId>
+      <RefTableName>MauForm</RefTableName>
+      <RefKeyName>PK_MauForm</RefKeyName>
+      <RefColNames>MsMau</RefColNames>
+    </foreign-key>
+    <column id="76" parent="41" name="DongXe">
+      <Position>1</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="41" name="HangXe">
+      <Position>2</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <column id="78" parent="41" name="SoChoNgoi">
+      <Position>3</Position>
+      <DataType>varchar(5 char)|0s</DataType>
+    </column>
+    <index id="79" parent="41" name="PK__DONGXE__F5C9892E3F860FD7">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DongXe</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="80" parent="41" name="PK__DONGXE__F5C9892E3F860FD7">
+      <ObjectId>103671417</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-02-27.06:31:01.213</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:01.213</ModifiedTimestamp>
+      <ColNames>DongXe</ColNames>
+      <UnderlyingIndexName>PK__DONGXE__F5C9892E3F860FD7</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="81" parent="42" name="MaDKCC">
+      <Position>1</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="42" name="MaNhaCC">
+      <Position>2</Position>
+      <DataType>char(6 char)|0s</DataType>
+    </column>
+    <column id="83" parent="42" name="MaLoaiDV">
+      <Position>3</Position>
+      <DataType>char(6 char)|0s</DataType>
+    </column>
+    <column id="84" parent="42" name="DongXe">
+      <Position>4</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <column id="85" parent="42" name="MaMP">
+      <Position>5</Position>
+      <DataType>char(6 char)|0s</DataType>
+    </column>
+    <column id="86" parent="42" name="NgayBatDauCungCap">
+      <Position>6</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <column id="87" parent="42" name="NgayKetThucCungCap">
+      <Position>7</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <column id="88" parent="42" name="SoLuongXeDangKi">
+      <Position>8</Position>
+      <DataType>varchar(5 char)|0s</DataType>
+    </column>
+    <index id="89" parent="42" name="pk_DangKiCungCap">
+      <Position>1</Position>
+      <ColNames>MaDKCC</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="42" name="pk_DangKiCungCap">
+      <ObjectId>135671531</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:08.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+      <ColNames>MaDKCC</ColNames>
+      <UnderlyingIndexName>pk_DangKiCungCap</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="91" parent="42" name="fk_DangKiCungCap_MaNhaCC">
+      <ObjectId>151671588</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:08.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+      <ColNames>MaNhaCC</ColNames>
+      <RefTableId>2107154552</RefTableId>
+      <RefTableName>NhaCungCap</RefTableName>
+      <RefKeyName>PK__NhaCungC__C87CD371151D0B62</RefKeyName>
+      <RefColNames>MaNhaCC</RefColNames>
+    </foreign-key>
+    <foreign-key id="92" parent="42" name="fk_DangKiCungCap_MaLoaiDV">
+      <ObjectId>167671645</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:08.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+      <ColNames>MaLoaiDV</ColNames>
+      <RefTableId>2139154666</RefTableId>
+      <RefTableName>LoaiDichVu</RefTableName>
+      <RefKeyName>PK__LoaiDich__12274865F4153129</RefKeyName>
+      <RefColNames>MaLoaiDV</RefColNames>
+    </foreign-key>
+    <foreign-key id="93" parent="42" name="fk_DangKiCungCap_DongXe">
+      <ObjectId>199671759</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:08.103</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.103</ModifiedTimestamp>
+      <ColNames>DongXe</ColNames>
+      <RefTableId>87671360</RefTableId>
+      <RefTableName>DONGXE</RefTableName>
+      <RefKeyName>PK__DONGXE__F5C9892E3F860FD7</RefKeyName>
+      <RefColNames>DongXe</RefColNames>
+    </foreign-key>
+    <foreign-key id="94" parent="42" name="fk_DangKiCungCap_MaMP">
+      <ObjectId>183671702</ObjectId>
+      <CreatedTimestamp>2019-02-27.06:31:08.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:31:08.100</ModifiedTimestamp>
+      <ColNames>MaMP</ColNames>
+      <RefTableId>23671132</RefTableId>
+      <RefTableName>MucPhi</RefTableName>
+      <RefKeyName>PK__MucPhi__2725DFD10211283E</RefKeyName>
+      <RefColNames>MaMP</RefColNames>
+    </foreign-key>
+    <column id="95" parent="43" name="TenDangNhap">
+      <Position>1</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="43" name="MatKhau">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="97" parent="43" name="TuCach">
+      <Position>3</Position>
+      <DataType>char(1 char)|0s</DataType>
+    </column>
+    <column id="98" parent="43" name="MSThamChieu">
+      <Position>4</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+    </column>
+    <index id="99" parent="43" name="PK_DangNhap">
+      <Position>1</Position>
+      <ColNames>TenDangNhap</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="43" name="PK_DangNhap">
+      <ObjectId>327672215</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.040</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.040</ModifiedTimestamp>
+      <ColNames>TenDangNhap</ColNames>
+      <UnderlyingIndexName>PK_DangNhap</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="101" parent="44" name="SoTheDG">
+      <Position>1</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="44" name="HoDG">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="103" parent="44" name="TenDG">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <column id="104" parent="44" name="NgaySinh">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="105" parent="44" name="NoiSinh">
+      <Position>5</Position>
+      <DataType>nvarchar(15 char)|0s</DataType>
+    </column>
+    <column id="106" parent="44" name="SoCC">
+      <Position>6</Position>
+      <DataType>nvarchar(11 char)|0s</DataType>
+    </column>
+    <column id="107" parent="44" name="NgayCapCC">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="108" parent="44" name="NgayCapThe">
+      <Position>8</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="109" parent="44" name="NgayDaoHan">
+      <Position>9</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <index id="110" parent="44" name="PK_SoTheDG">
+      <Position>1</Position>
+      <ColNames>SoTheDG</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="44" name="PK_SoTheDG">
+      <ObjectId>359672329</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.070</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.070</ModifiedTimestamp>
+      <ColNames>SoTheDG</ColNames>
+      <UnderlyingIndexName>PK_SoTheDG</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="112" parent="45" name="MaLoaiDV">
+      <Position>1</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="45" name="TenLoaiDV">
+      <Position>2</Position>
+      <DataType>nvarchar(40 char)|0s</DataType>
+    </column>
+    <index id="114" parent="45" name="PK__LoaiDich__12274865F4153129">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MaLoaiDV</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="45" name="PK__LoaiDich__12274865F4153129">
+      <ObjectId>7671075</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-02-27.06:30:21.967</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:30:21.967</ModifiedTimestamp>
+      <ColNames>MaLoaiDV</ColNames>
+      <UnderlyingIndexName>PK__LoaiDich__12274865F4153129</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="116" parent="46" name="MaMH">
+      <Position>1</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="46" name="TenMH">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <index id="118" parent="46" name="PK__LoaiMatH__2725DFD9FCA4193A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MaMH</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="119" parent="46" name="PK__LoaiMatH__2725DFD9FCA4193A">
+      <ObjectId>247671930</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-02-27.07:08:19.203</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.07:08:19.203</ModifiedTimestamp>
+      <ColNames>MaMH</ColNames>
+      <UnderlyingIndexName>PK__LoaiMatH__2725DFD9FCA4193A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="120" parent="47" name="optname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="47" name="value">
+      <Position>2</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="47" name="major_version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="47" name="minor_version">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="47" name="revision">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="47" name="install_failures">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="48" name="MsMau">
+      <Position>1</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="48" name="TenMau">
+      <Position>2</Position>
+      <DataType>nvarchar(40 char)|0s</DataType>
+    </column>
+    <index id="128" parent="48" name="PK_MauForm">
+      <Position>1</Position>
+      <ColNames>MsMau</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="129" parent="48" name="UK_TenMau">
+      <Position>2</Position>
+      <ColNames>TenMau</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="130" parent="48" name="PK_MauForm">
+      <ObjectId>391672443</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.070</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.070</ModifiedTimestamp>
+      <ColNames>MsMau</ColNames>
+      <UnderlyingIndexName>PK_MauForm</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="131" parent="48" name="UK_TenMau">
+      <ObjectId>727673640</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.847</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.847</ModifiedTimestamp>
+      <ColNames>TenMau</ColNames>
+      <UnderlyingIndexName>UK_TenMau</UnderlyingIndexName>
+    </key>
+    <column id="132" parent="49" name="MaMP">
+      <Position>1</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="49" name="DonGia">
+      <Position>2</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="134" parent="49" name="MoTa">
+      <Position>3</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <index id="135" parent="49" name="PK__MucPhi__2725DFD10211283E">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MaMP</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="136" parent="49" name="PK__MucPhi__2725DFD10211283E">
+      <ObjectId>39671189</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-02-27.06:30:22.013</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:30:22.013</ModifiedTimestamp>
+      <ColNames>MaMP</ColNames>
+      <UnderlyingIndexName>PK__MucPhi__2725DFD10211283E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="137" parent="50" name="MaNhaCC">
+      <Position>1</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="50" name="TenNhaCC">
+      <Position>2</Position>
+      <DataType>nvarchar(40 char)|0s</DataType>
+    </column>
+    <column id="139" parent="50" name="DiaChi">
+      <Position>3</Position>
+      <DataType>nvarchar(40 char)|0s</DataType>
+    </column>
+    <column id="140" parent="50" name="SDT">
+      <Position>4</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="141" parent="50" name="MaSoThue">
+      <Position>5</Position>
+      <DataType>char(6 char)|0s</DataType>
+    </column>
+    <index id="142" parent="50" name="PK__NhaCungC__C87CD371151D0B62">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MaNhaCC</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="143" parent="50" name="PK__NhaCungC__C87CD371151D0B62">
+      <ObjectId>2123154609</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-02-27.06:30:21.960</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-27.06:30:21.960</ModifiedTimestamp>
+      <ColNames>MaNhaCC</ColNames>
+      <UnderlyingIndexName>PK__NhaCungC__C87CD371151D0B62</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="144" parent="51" name="MSNXB">
+      <Position>1</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="51" name="TenNXB">
+      <Position>2</Position>
+      <DataType>nvarchar(40 char)|0s</DataType>
+    </column>
+    <index id="146" parent="51" name="PK_MSNXB">
+      <Position>1</Position>
+      <ColNames>MSNXB</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="147" parent="51" name="UK_TenNXB">
+      <Position>2</Position>
+      <ColNames>TenNXB</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="148" parent="51" name="PK_MSNXB">
+      <ObjectId>423672557</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.097</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.097</ModifiedTimestamp>
+      <ColNames>MSNXB</ColNames>
+      <UnderlyingIndexName>PK_MSNXB</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="149" parent="51" name="UK_TenNXB">
+      <ObjectId>743673697</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.860</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.860</ModifiedTimestamp>
+      <ColNames>TenNXB</ColNames>
+      <UnderlyingIndexName>UK_TenNXB</UnderlyingIndexName>
+    </key>
+    <column id="150" parent="52" name="SoGiaiQuyet">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="52" name="SoYeuCau">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="152" parent="52" name="MSSachMuon">
+      <Position>3</Position>
+      <DataType>varchar(9 char)|0s</DataType>
+    </column>
+    <column id="153" parent="52" name="MSThuThu">
+      <Position>4</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+    </column>
+    <index id="154" parent="52" name="PK_PhieuGiaiQuyetMon">
+      <Position>1</Position>
+      <ColNames>SoGiaiQuyet</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="155" parent="52" name="PK_PhieuGiaiQuyetMon">
+      <ObjectId>455672671</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.100</ModifiedTimestamp>
+      <ColNames>SoGiaiQuyet</ColNames>
+      <UnderlyingIndexName>PK_PhieuGiaiQuyetMon</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="156" parent="53" name="SoGiaiQuyet">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="53" name="MSThuThu">
+      <Position>2</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="158" parent="53" name="NgayTra">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <index id="159" parent="53" name="PK_PhieuTraSach">
+      <Position>1</Position>
+      <ColNames>SoGiaiQuyet</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="160" parent="53" name="PK_PhieuTraSach">
+      <ObjectId>487672785</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.100</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.100</ModifiedTimestamp>
+      <ColNames>SoGiaiQuyet</ColNames>
+      <UnderlyingIndexName>PK_PhieuTraSach</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="161" parent="54" name="SoYeuCau">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="54" name="NgayMuon">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="163" parent="54" name="SoTheDG">
+      <Position>3</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+    </column>
+    <column id="164" parent="54" name="MSSach">
+      <Position>4</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+    </column>
+    <index id="165" parent="54" name="PK_PhieuYeuCau">
+      <Position>1</Position>
+      <ColNames>SoYeuCau</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="166" parent="54" name="PK_PhieuYeuCau">
+      <ObjectId>519672899</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.103</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.103</ModifiedTimestamp>
+      <ColNames>SoYeuCau</ColNames>
+      <UnderlyingIndexName>PK_PhieuYeuCau</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="167" parent="54" name="FK_PhieuYeuCau_PhieuYeuCau">
+      <ObjectId>887674210</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.910</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.910</ModifiedTimestamp>
+      <ColNames>SoTheDG</ColNames>
+      <RefTableId>343672272</RefTableId>
+      <RefTableName>DocGia</RefTableName>
+      <RefKeyName>PK_SoTheDG</RefKeyName>
+      <RefColNames>SoTheDG</RefColNames>
+    </foreign-key>
+    <foreign-key id="168" parent="54" name="FK_PhieuYeuCau_Sach">
+      <ObjectId>903674267</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.917</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.917</ModifiedTimestamp>
+      <ColNames>MSSach</ColNames>
+      <RefTableId>535672956</RefTableId>
+      <RefTableName>Sach</RefTableName>
+      <RefKeyName>PK_MSSach</RefKeyName>
+      <RefColNames>MSSach</RefColNames>
+    </foreign-key>
+    <column id="169" parent="55" name="MSSach">
+      <Position>1</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="55" name="NhanDeSach">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="171" parent="55" name="MSNXB">
+      <Position>3</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+    </column>
+    <column id="172" parent="55" name="NamXB">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="173" parent="55" name="SoTrang">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="174" parent="55" name="HinhBia">
+      <Position>6</Position>
+      <DataType>image|0s</DataType>
+    </column>
+    <index id="175" parent="55" name="PK_MSSach">
+      <Position>1</Position>
+      <ColNames>MSSach</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="176" parent="55" name="PK_MSSach">
+      <ObjectId>551673013</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.107</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.107</ModifiedTimestamp>
+      <ColNames>MSSach</ColNames>
+      <UnderlyingIndexName>PK_MSSach</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="177" parent="55" name="FK_Sach_NhaXuatBan">
+      <ObjectId>919674324</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.917</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.917</ModifiedTimestamp>
+      <ColNames>MSNXB</ColNames>
+      <RefTableId>407672500</RefTableId>
+      <RefTableName>NhaXuatBan</RefTableName>
+      <RefKeyName>PK_MSNXB</RefKeyName>
+      <RefColNames>MSNXB</RefColNames>
+    </foreign-key>
+    <column id="178" parent="56" name="MSSachMuon">
+      <Position>1</Position>
+      <DataType>varchar(9 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="179" parent="56" name="MSSach">
+      <Position>2</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+    </column>
+    <index id="180" parent="56" name="PK_SachMuon">
+      <Position>1</Position>
+      <ColNames>MSSachMuon</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="181" parent="56" name="PK_SachMuon">
+      <ObjectId>583673127</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.110</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.110</ModifiedTimestamp>
+      <ColNames>MSSachMuon</ColNames>
+      <UnderlyingIndexName>PK_SachMuon</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="182" parent="56" name="FK_SachMuon_Sach">
+      <ObjectId>935674381</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.923</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.923</ModifiedTimestamp>
+      <ColNames>MSSach</ColNames>
+      <RefTableId>535672956</RefTableId>
+      <RefTableName>Sach</RefTableName>
+      <RefKeyName>PK_MSSach</RefKeyName>
+      <RefColNames>MSSach</RefColNames>
+    </foreign-key>
+    <column id="183" parent="57" name="MSSach">
+      <Position>1</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="57" name="MSTacGia">
+      <Position>2</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="185" parent="57" name="PK_SachTacGia">
+      <Position>1</Position>
+      <ColNames>MSSach
+MSTacGia</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="186" parent="57" name="PK_SachTacGia">
+      <ObjectId>615673241</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.113</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.113</ModifiedTimestamp>
+      <ColNames>MSSach
+MSTacGia</ColNames>
+      <UnderlyingIndexName>PK_SachTacGia</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="187" parent="57" name="FK_SachTacGia_Sach">
+      <ObjectId>951674438</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.940</ModifiedTimestamp>
+      <ColNames>MSSach</ColNames>
+      <RefTableId>535672956</RefTableId>
+      <RefTableName>Sach</RefTableName>
+      <RefKeyName>PK_MSSach</RefKeyName>
+      <RefColNames>MSSach</RefColNames>
+    </foreign-key>
+    <foreign-key id="188" parent="57" name="FK_SachTacGia_TacGia">
+      <ObjectId>967674495</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.943</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.943</ModifiedTimestamp>
+      <ColNames>MSTacGia</ColNames>
+      <RefTableId>631673298</RefTableId>
+      <RefTableName>TacGia</RefTableName>
+      <RefKeyName>PK_MSTacGia</RefKeyName>
+      <RefColNames>MSTacGia</RefColNames>
+    </foreign-key>
+    <column id="189" parent="58" name="MSTacGia">
+      <Position>1</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="190" parent="58" name="HocVi">
+      <Position>2</Position>
+      <DataType>nvarchar(15 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="191" parent="58" name="HoTacGia">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="192" parent="58" name="TenTacGia">
+      <Position>4</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <index id="193" parent="58" name="PK_MSTacGia">
+      <Position>1</Position>
+      <ColNames>MSTacGia</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="194" parent="58" name="UK_HoTacGia">
+      <Position>2</Position>
+      <ColNames>HoTacGia</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="195" parent="58" name="UK_TenTacGia">
+      <Position>3</Position>
+      <ColNames>TenTacGia</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="196" parent="58" name="PK_MSTacGia">
+      <ObjectId>647673355</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.117</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.117</ModifiedTimestamp>
+      <ColNames>MSTacGia</ColNames>
+      <UnderlyingIndexName>PK_MSTacGia</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="197" parent="58" name="UK_HoTacGia">
+      <ObjectId>759673754</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.863</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.863</ModifiedTimestamp>
+      <ColNames>HoTacGia</ColNames>
+      <UnderlyingIndexName>UK_HoTacGia</UnderlyingIndexName>
+    </key>
+    <key id="198" parent="58" name="UK_TenTacGia">
+      <ObjectId>775673811</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.867</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.867</ModifiedTimestamp>
+      <ColNames>TenTacGia</ColNames>
+      <UnderlyingIndexName>UK_TenTacGia</UnderlyingIndexName>
+    </key>
+    <column id="199" parent="59" name="MSThuThu">
+      <Position>1</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="200" parent="59" name="HoThuThu">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="201" parent="59" name="TenThuThu">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <column id="202" parent="59" name="DiaChi">
+      <Position>4</Position>
+      <DataType>nvarchar(40 char)|0s</DataType>
+    </column>
+    <column id="203" parent="59" name="DienThoai">
+      <Position>5</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <index id="204" parent="59" name="PK_MSThuThu">
+      <Position>1</Position>
+      <ColNames>MSThuThu</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="205" parent="59" name="UK_DiaChi">
+      <Position>2</Position>
+      <ColNames>DiaChi</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="206" parent="59" name="UK_HoThuThu">
+      <Position>3</Position>
+      <ColNames>HoThuThu</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="207" parent="59" name="UK_TenThuThu">
+      <Position>4</Position>
+      <ColNames>TenThuThu</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="208" parent="59" name="PK_MSThuThu">
+      <ObjectId>679673469</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.117</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.117</ModifiedTimestamp>
+      <ColNames>MSThuThu</ColNames>
+      <UnderlyingIndexName>PK_MSThuThu</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="209" parent="59" name="UK_HoThuThu">
+      <ObjectId>807673925</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.873</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.873</ModifiedTimestamp>
+      <ColNames>HoThuThu</ColNames>
+      <UnderlyingIndexName>UK_HoThuThu</UnderlyingIndexName>
+    </key>
+    <key id="210" parent="59" name="UK_TenThuThu">
+      <ObjectId>823673982</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.880</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.880</ModifiedTimestamp>
+      <ColNames>TenThuThu</ColNames>
+      <UnderlyingIndexName>UK_TenThuThu</UnderlyingIndexName>
+    </key>
+    <key id="211" parent="59" name="UK_DiaChi">
+      <ObjectId>791673868</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.870</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.870</ModifiedTimestamp>
+      <ColNames>DiaChi</ColNames>
+      <UnderlyingIndexName>UK_DiaChi</UnderlyingIndexName>
+    </key>
+    <column id="212" parent="60" name="TuCach">
+      <Position>1</Position>
+      <DataType>varchar(1 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="60" name="TacNhan">
+      <Position>2</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <index id="214" parent="60" name="PK_TuCachTacNhan">
+      <Position>1</Position>
+      <ColNames>TuCach</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="215" parent="60" name="UK_TacNhan">
+      <Position>2</Position>
+      <ColNames>TacNhan</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="216" parent="60" name="PK_TuCachTacNhan">
+      <ObjectId>711673583</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.120</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.120</ModifiedTimestamp>
+      <ColNames>TuCach</ColNames>
+      <UnderlyingIndexName>PK_TuCachTacNhan</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="217" parent="60" name="UK_TacNhan">
+      <ObjectId>839674039</ObjectId>
+      <CreatedTimestamp>2019-03-10.17:37:59.880</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-10.17:37:59.880</ModifiedTimestamp>
+      <ColNames>TacNhan</ColNames>
+      <UnderlyingIndexName>UK_TacNhan</UnderlyingIndexName>
+    </key>
+    <column id="218" parent="61" name="xserver_name">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="219" parent="61" name="xdttm_ins">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="220" parent="61" name="xdttm_last_ins_upd">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="221" parent="61" name="xfallback_dbid">
+      <Position>4</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="222" parent="61" name="name">
+      <Position>5</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="223" parent="61" name="dbid">
+      <Position>6</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="224" parent="61" name="status">
+      <Position>7</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="225" parent="61" name="version">
+      <Position>8</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="226" parent="62" name="xserver_name">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="227" parent="62" name="xdttm_ins">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="228" parent="62" name="xdttm_last_ins_upd">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="229" parent="62" name="xfallback_low">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="230" parent="62" name="xfallback_drive">
+      <Position>5</Position>
+      <DataType>char(2 char)|0s</DataType>
+    </column>
+    <column id="231" parent="62" name="low">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="62" name="high">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="233" parent="62" name="status">
+      <Position>8</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="234" parent="62" name="name">
+      <Position>9</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="235" parent="62" name="phyname">
+      <Position>10</Position>
+      <DataType>varchar(127 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="236" parent="63" name="xserver_name">
+      <Position>1</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="237" parent="63" name="xdttm_ins">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="238" parent="63" name="xdttm_last_ins_upd">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="239" parent="63" name="xfallback_vstart">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="240" parent="63" name="dbid">
+      <Position>5</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="241" parent="63" name="segmap">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="242" parent="63" name="lstart">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="243" parent="63" name="sizepg">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="244" parent="63" name="vstart">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="245" parent="64" name="lastrun">
+      <Position>1</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="246" parent="64" name="cpu_busy">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="247" parent="64" name="io_busy">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="248" parent="64" name="idle">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="249" parent="64" name="pack_received">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="250" parent="64" name="pack_sent">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="251" parent="64" name="connections">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="252" parent="64" name="pack_errors">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="253" parent="64" name="total_read">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="254" parent="64" name="total_write">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="255" parent="64" name="total_errors">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="256" parent="65" name="name">
+      <Position>1</Position>
+      <DataType>nvarchar(35 char)|0s</DataType>
+    </column>
+    <column id="257" parent="65" name="number">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="258" parent="65" name="type">
+      <Position>3</Position>
+      <DataType>nchar(3 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="259" parent="65" name="low">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="260" parent="65" name="high">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="261" parent="65" name="status">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <argument id="262" parent="66" name="@MSSach">
+      <Position>1</Position>
+      <DataType>varchar(6 char)|0s</DataType>
+    </argument>
+    <argument id="263" parent="66" name="@HinhBia">
+      <Position>2</Position>
+      <DataType>image|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
