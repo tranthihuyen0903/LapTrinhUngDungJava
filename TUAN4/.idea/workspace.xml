@@ -32,11 +32,11 @@
   <component name="ProjectId" id="1Rffb5g3qlJVGtpZZoSwk36D6Tp" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="173" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="276" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="105" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="244" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,6 +99,17 @@
       <workItem from="1570063145399" duration="10449000" />
       <workItem from="1570120717292" duration="1706000" />
       <workItem from="1570123046520" duration="5052000" />
+      <workItem from="1570407327548" duration="83000" />
+      <workItem from="1570407610532" duration="52000" />
+      <workItem from="1570408894602" duration="7314000" />
+      <workItem from="1570456350796" duration="102000" />
+      <workItem from="1570543885967" duration="439000" />
+      <workItem from="1570544481892" duration="406000" />
+      <workItem from="1570546625056" duration="4681000" />
+      <workItem from="1570670088892" duration="21000" />
+      <workItem from="1570671953669" duration="3161000" />
+      <workItem from="1570675570108" duration="589000" />
+      <workItem from="1570974530876" duration="1910000" />
     </task>
     <servers />
   </component>

@@ -222,6 +222,7 @@
                 </constraints>
                 <properties>
                   <background color="-15502785"/>
+                  <enabled value="false"/>
                   <foreground color="-1380899"/>
                   <text value="Delete"/>
                 </properties>
@@ -234,6 +235,7 @@
                 </constraints>
                 <properties>
                   <background color="-6737141"/>
+                  <enabled value="false"/>
                   <foreground color="-1380899"/>
                   <text value="Update"/>
                 </properties>

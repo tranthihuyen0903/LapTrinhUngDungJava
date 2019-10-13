@@ -1,7 +1,6 @@
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -30,6 +29,7 @@ public class BaiTapTuan4 {
     private JTextArea areaRemark;
     private JTabbedPane tabbedPane1;
     private JTable tableThongTin;
+    String id,name, supplier, address, contact, email, remarks;
 
     public BaiTapTuan4() {
         ButtonGroup btg =new ButtonGroup();
@@ -83,6 +83,72 @@ public class BaiTapTuan4 {
                 }
             }
         });
+                btnDelete.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVitri();
+                try {
+                    ConnectionClass connectionClass = new ConnectionClass();
+                    Connection connection = connectionClass.getConnection();
+                    String sql = "delete from BT4 where supID="+id;
+                    Statement statement = connection.createStatement();
+                    ResultSet rs = statement.executeQuery(sql);
+                }
+                catch (Exception ex){
+
+                }
+                hienTable();
+            }
+
+        });
+
+        tableThongTin.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+            btnDelete.setEnabled(true);
+            btnUpdate.setEnabled(true);
+            setVitri();
+            areaRemark.setText(id+" "+name+" "+supplier+" "+address+" "+contact+" "+email);
+            }
+        });
+        btnUpdate.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVitri();
+                try {
+                    ConnectionClass connectionClass = new ConnectionClass();
+                    Connection connection = connectionClass.getConnection();
+                    String sql = "update BT4 set supName='"+name+"', supType='"+supplier+"',contactNo='"+contact+"', emailID='"+email+"', address='"+address+"', remarks='"+remarks+"' where supID="+id;
+                    Statement statement = connection.createStatement();
+                    ResultSet rs = statement.executeQuery(sql);
+                }
+                catch (Exception ex){
+
+                }
+                hienTable();
+
+            }
+        });
+        btnUpdate.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
+    public  void  setVitri(){
+        int row=tableThongTin.getSelectedRow();
+        id=tableThongTin.getValueAt(row,0).toString();
+        name=tableThongTin.getValueAt(row, 1).toString();
+        supplier=tableThongTin.getValueAt(row, 2).toString();
+        address=tableThongTin.getValueAt(row, 3).toString();
+        contact=tableThongTin.getValueAt(row, 4).toString();
+        email=tableThongTin.getValueAt(row, 5).toString();
+        remarks=tableThongTin.getValueAt(row, 6).toString();
+
+
+
     }
 public  void hienTable(){
     tableThongTin.removeAll();
@@ -105,13 +171,13 @@ public  void hienTable(){
             String row5 = rs.getString("contactNo");
             String row6 = rs.getString("emailID");
             String row7 = rs.getString("remarks");
-            Object[] row = {row1, row2, row3,row4,row5,row6,row7};
+            Object[] row = {row1, row2, row3, row4, row5, row6, row7};
             tableModel.addRow(row);
         }
 
     }
     catch (Exception ex){
-        System.out.println("Kiem Tra Lại Thong Tin");
+        System.out.println("Kiểm tra lại thông tin");
     }
 }
 public void setMacDinh(){
